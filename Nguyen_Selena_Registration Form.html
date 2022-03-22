@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             Registration Form
@@ -8,11 +8,11 @@
     <body>
         <h1>Registration Form</h1>
         <form>
-            <label>First Name: * <input type="text" id="First Name"></label><br>
-            <label>Last Name: * <input type="text" id="Last Name"></b></label><br>
-            <label>Email Address: * <input type="text" id="Email Address"></label><br>
+            <label>First Name: * <input type="text" id="firstname"></label><br>
+            <label>Last Name: * <input type="text" id="lastname"></label><br>
+            <label>Email Address: * <input type="text" id="emailaddress"></label><br>
             <label>Password: * <input type="password" id="pwd"></label><br>
-            <label>Confirm Password: * <input type="confirmpassword" id="pwd"></label><br>
+            <label>Confirm Password: * <input type="password" id="confirmpwd"></label><br>
             <label>Birthday:<input type="date" id="birthday"></label><br>
             <label>Gender Identity: </label><br>
                 <input type="radio" name="gender" value="male"> Male
@@ -25,8 +25,9 @@
             <select name="language" id="language">
                 <option value="HTML">HTML</option>
                 <option value="CSS">CSS</option>
-                <option value="Java Script" selected>Java Script</option></select>
-            </label><br>
+                <option value="Java Script" selected>Java Script</option>
+            </select>
+            <br>
             <input checked type="checkbox">Yes, I would like to receive periodic email updates<br>
             <input type="submit" class="Create Account" value="Create Account" onclick="validation()" formtarget="_blank"><br>
             <p>* Indicates a required field</p>
